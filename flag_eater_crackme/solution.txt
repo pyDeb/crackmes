@@ -1,0 +1,1 @@
+The solution of this challenge narrows down to the **sub_559C0AB771E9** where in the highlighted line (breakpointed) eax is compared with edx. User's input is in edx and the flag is in eax. In each iteration one character of user's input is compared with the value of eax.
