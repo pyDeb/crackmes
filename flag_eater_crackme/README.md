@@ -1,3 +1,5 @@
+Challenge: https://crackmes.one/crackme/61eec94433c5d413767ca64f
+
 The solution of this challenge narrows down to the **sub_559C0AB771E9** where in the highlighted line (breakpointed) eax is compared with edx. Modified user's input is in edx and the flag is in eax. In each iteration one character of user's input is compared with the value of eax. In subroutine that I renamed to compare in the second screenshot, you can find that the length of the string is 30. After 30 iterations of the loop in **sub_559C0AB771E9**, we can find each character that is read from memory. The 30 numbers are as follows: 
 
 six + six + thirty + thirty three + seven + seven + three + seven + thirty two + six + three + five + thirty five + three + five + seven + seven + seven + six + thirty six + seven + five + six + six + three + five + three + seven + thirty + seven
