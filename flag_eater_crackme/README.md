@@ -6,7 +6,7 @@ six + six + thirty + thirty three + seven + seven + three + seven + thirty two +
 
 Our task is to supply an input in a way that writes those numbers into memory.
 
-But, as I said first, modified user's input is in memory. The modifications happens in compare. In sub_562A85BC624B, if the ascii code of each character is even, it chooses to run loc_562A85BC630E where the ascii code is right shifted 4 times, or it is devided by 64. If it is even, it will be shifted to right only once, or divided by 2 (in the other subroutine). I wrote the script that for small numbers like 6, 7, 5, they are multiplied by 64 and for bigger ones they are multiplied by 2. This way, it makes sense for ascii codes. At the end, you can see the flag was found.
+But, as I said first, modified user's input is in memory. The modifications happens in compare. In sub_562A85BC624B, if the ascii code of each character is even, it chooses to run loc_562A85BC630E where the ascii code is right shifted 4 times, or it is devided by 16. If it is even, it will be shifted to right only once, or divided by 2 (in the other subroutine). I wrote the script that for small numbers like 6, 7, 5, they are multiplied by 64 and for bigger ones they are multiplied by 2. This way, it makes sense for ascii codes. At the end, you can see the flag was found.
 
 ![Image 1](https://github.com/pyDeb/crackmes/blob/main/flag_eater_crackme/Screenshot%20from%202022-01-29%2015-14-23.png)
 
